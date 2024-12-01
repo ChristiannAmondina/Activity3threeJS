@@ -1,13 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>3D Portfolio</title>
-    <link rel="stylesheet" href="/src/styles.css" />
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Blood Cells - 3D Visualization</title>
+    
+    <!-- Link to your CSS file -->
+    <link rel="stylesheet" href="./src/styles.css">
+</head>
+<body>
+    <!-- Header with navigation links -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home section with Three.js 3D canvas -->
+    <section id="home">
+        <!-- WebGL canvas for Three.js -->
+        <canvas class="webgl"></canvas>
+        <h1>Red Blood Cells: The Life of Blood</h1>
+    </section>
+
+    <!-- About section with red blood cell facts -->
+    <section id="about">
+        <h2>About Red Blood Cells</h2>
+
+        <p>Red blood cells (RBCs), or erythrocytes, are the most common type of blood cell and play a vital role in transporting oxygen throughout the body. They are specialized for this function due to their unique structure and composition. RBCs are disc-shaped and highly flexible, which allows them to squeeze through even the smallest blood vessels, such as capillaries, that are only slightly larger than the cells themselves. This flexibility is essential for ensuring that oxygen can be delivered to tissues and organs in all areas of the body. Each RBC contains millions of molecules of hemoglobin, a protein that binds to oxygen in the lungs and carries it through the bloodstream to tissues and organs where it is needed for cellular respiration. The hemoglobin within RBCs also binds to carbon dioxide, which is a waste product of metabolism, and helps return it to the lungs for exhalation. 
+
+        Red blood cells are produced in the bone marrow through a process called erythropoiesis. Once released into the bloodstream, they begin their life cycle, which typically lasts about 120 days. After this period, old or damaged RBCs are broken down in the spleen and liver, and their components are recycled for the production of new cells. Unlike most other cells in the body, RBCs lack a nucleus, which allows more room for hemoglobin and enhances their efficiency in oxygen transport. This absence of a nucleus also means that they cannot divide or repair themselves, making them reliant on the bone marrow to produce new cells. It is fascinating to note that, in a healthy adult, each microliter of blood contains about 5 million red blood cells, and each one of them is working tirelessly to maintain the body’s oxygen levels, making RBCs essential to our overall health and survival.</p>
+            
+    </section>
+
+    <!-- Footer with credits -->
+    <div class="footer">
+        <h2>Made by Christian A. Balasabas 😎</h2>
+    </div>
+
+    <!-- Link to your JS file -->
+     
+ 
+    <script src="./src/main.js" type="module"></script>
+</body>
 </html>
